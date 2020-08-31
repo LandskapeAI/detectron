@@ -13,7 +13,7 @@ from detectron2.layers import (
 )
 
 from detectron2.modeling.backbone import Backbone
-from detectron2.modeling.build import BACKBONE_REGISTRY
+from detectron2.modeling import BACKBONE_REGISTRY
 
 from ..layers import *
 
