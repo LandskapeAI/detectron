@@ -12,8 +12,8 @@ from detectron2.layers import (
     get_norm,
 )
 
-from detectron2.modelling.backbone import Backbone
-from detectron2.modelling.build import BACKBONE_REGISTRY
+from detectron2.modeling.backbone import Backbone
+from detectron2.modeling.build import BACKBONE_REGISTRY
 
 from ..layers import *
 
