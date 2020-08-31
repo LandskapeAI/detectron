@@ -6,8 +6,8 @@ from torch import nn
 
 from detectron2.layers import Conv2d, ShapeSpec, get_norm
 
-from detectron2.modelling.backbone import Backbone
-from detectron2.modelling.build import BACKBONE_REGISTRY
+from detectron2.modeling.backbone import Backbone
+from detectron2.modeling import BACKBONE_REGISTRY
 from .resnet import build_resnet_backbone
 
 from ..layers import *
